@@ -1,0 +1,22 @@
+{
+  "name": "frameworktailwind",
+  "version": "1.0.0",
+  "description": "Curso basico de tailwind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chrisjv87/curso-Basico-Tailwind-2-3.git"
+  },
+  "keywords": [
+    "Tailwind"
+  ],
+  "author": "chrisjv87",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisjv87/curso-Basico-Tailwind-2-3/issues"
+  },
+  "homepage": "https://github.com/chrisjv87/curso-Basico-Tailwind-2-3#readme"
+}
