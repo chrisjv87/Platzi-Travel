@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/chrisjv87/curso-Basico-Tailwind-2-3/issues"
   },
-  "homepage": "https://github.com/chrisjv87/curso-Basico-Tailwind-2-3#readme"
+  "homepage": "https://github.com/chrisjv87/curso-Basico-Tailwind-2-3#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10"
+  }
 }
