@@ -596,10 +596,6 @@ video {
   position: absolute;
 }
 
-.relative {
-  position: relative;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
@@ -632,14 +628,6 @@ video {
   margin-top: 2rem;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
 .flex {
   display: flex;
 }
@@ -666,10 +654,6 @@ video {
 
 .h-3\/5 {
   height: 60%;
-}
-
-.h-64 {
-  height: 16rem;
 }
 
 .h-72 {
@@ -799,11 +783,6 @@ video {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
-.bg-gray-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
-}
-
 .bg-secondary {
   --tw-bg-opacity: 1;
   background-color: rgb(143 162 6 / var(--tw-bg-opacity));
@@ -899,8 +878,20 @@ video {
   padding-bottom: 1rem;
 }
 
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
 .pb-6 {
   padding-bottom: 1.5rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
 }
 
 .pl-8 {
@@ -911,24 +902,8 @@ video {
   padding-top: 0.5rem;
 }
 
-.pl-6 {
-  padding-left: 1.5rem;
-}
-
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
-}
-
-.pb-0 {
-  padding-bottom: 0px;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
 }
 
 .font-Montserrat {
@@ -1091,9 +1066,9 @@ video {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-.dark\:bg-gray-900:is(.dark *) {
+.dark\:bg-gray-700:is(.dark *) {
   --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
 .dark\:bg-gray-800:is(.dark *) {
@@ -1101,19 +1076,14 @@ video {
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
-.dark\:bg-gray-700:is(.dark *) {
+.dark\:bg-gray-900:is(.dark *) {
   --tw-bg-opacity: 1;
-  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
 .dark\:text-white:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.dark\:text-black:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
@@ -1187,14 +1157,14 @@ video {
     background-position: center;
   }
 
-  .lg\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
   .lg\:px-14 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
+  }
+
+  .lg\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .lg\:pt-48 {
