@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  content: ["./public/index.html", "./src/**/*.{html,js}"],
+  content: ["./public/index.html"],
   darkMode: 'class',
   theme: {
     extend: {
       backgroundImage: {
-        "sanFrancisco": "url('../img/sanFranciso.jpg')",
+        "sanFrancisco": "url('../img/sanFrancisco.jpg')",
         "sanFranciscoDesktop": "url('../img/sanFranciscoDesktop.jpg')",
         "yosemite": "url('../img/yosemite.jpg')",
         "LA": "url('../img/LA.jpg')",
